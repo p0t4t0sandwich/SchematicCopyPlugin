@@ -61,6 +61,9 @@
     <Reference Include="ModuleShared">
       <HintPath>/home/dylan/code/ampapi/AMP_x86_64/ModuleShared.dll</HintPath>
     </Reference>
+    <Reference Include="LocalFileBackupPlugin">
+      <HintPath>/home/dylan/code/ampapi/AMP_x86_64/Plugins/LocalFileBackupPlugin/LocalFileBackupPlugin.dll</HintPath>
+    </Reference>
     <Reference Include="MinecraftModule">
       <HintPath>/home/dylan/code/ampapi/AMP_x86_64/Plugins/MinecraftModule/MinecraftModule.dll</HintPath>
     </Reference>

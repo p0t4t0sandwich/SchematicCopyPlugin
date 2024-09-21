@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AMPAPI;
 using ModuleShared;
 using FileManagerPlugin;
 using InstanceManagerPlugin;
@@ -30,6 +31,7 @@ namespace SchematicCopyPlugin
         [RequiresPermissions(SchematicPluginPermissions.CopySchematicPermission)]
         public ActionResult CopySchematic(string sourceInstanceName, string destInstanceName, string schematicName, bool isModded)
         {
+            LocalFileBackupPlugin.WebMethods
             var instanceManager = _features.RequestFeature<LocalInstanceManager>();
             var fileManager = (IVirtualFileService) _features.RequestFeature<IWSTransferHandler>();
             

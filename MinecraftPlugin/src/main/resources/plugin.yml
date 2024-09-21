@@ -1,0 +1,8 @@
+name: SchematicCopyPlugin
+version: '0.1.0-SNAPSHOT'
+main: dev.neuralnexus.schematiccopyplugin.SchematicCopyPlugin
+commands:
+  schemcopy:
+    description: Copy a schematic from one AMP instance to another
+    usage: /<command> <schematic_name> <instance_1> <instance_2>
+    permission: schematiccopyplugin.command.schemcopy
